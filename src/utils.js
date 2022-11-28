@@ -1,0 +1,1 @@
+import fs from'fs';const getFileData=a=>fs.readFileSync(a,'utf8');export{getFileData};

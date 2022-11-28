@@ -1,0 +1,1 @@
+import i18next from'i18next';const render=a=>{console.log('\x1B[1;31m%s\x1B[0m','\u0418\u0441\u043F\u0440\u0430\u0432\u044C\u0442\u0435 \u043E\u0448\u0438\u0431\u043A\u0438:'),a.forEach((a,b)=>console.log(`${b+1}. ${i18next.t(a.id,a.values)}`))};export default render;
